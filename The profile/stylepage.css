@@ -1,0 +1,190 @@
+section{
+  background-color: #ffdead;
+  height: 100vh;
+
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  gap: 100px;
+}
+.personal-pic {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.personal-pic > img {
+  max-width: 350px;
+  border: 20px solid white;
+}
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  margin-left: 100px;
+}
+.greeting {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+}
+.name {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+.identity {
+  color: rgb(184, 134, 11);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+.about {
+  margin-top: 10px;
+}
+.title {
+  color: black;
+  font-size: 60px;
+  margin: 0;
+  padding-left: 120px;
+  padding-top: 100px;
+}
+.my-story {
+  font-size: 45px;
+  max-width: 1000px;
+  margin-left: 120px;
+}
+
+
+
+
+.text-achieve {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 80px;
+  padding-left: 120px;
+}
+.my-achievements {
+  display: flex;
+  justify-content: space-around;
+}
+.hind-college > img {
+  max-width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border: 15px solid white;
+  
+}
+.description1 {
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 300px;
+}
+.competition-details{
+  font-size: 18px;
+}
+.tech-club > img {
+  max-width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border: 15px solid white;
+}
+
+
+.my-skills > h2{
+  margin-top: 10px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 120px;
+  font-size: 40px;
+}
+.the-skills{
+ padding-left: 120px;
+ font-size: 30px;
+}
+
+
+.my-resume{
+  margin-top: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.my-resume > p{
+  font-size: 45px;
+}
+.my-resume > button{
+  border: 0px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 30px;
+}
+.my-resume > button:hover{
+  background-color: brown;
+  transition: .5s;
+  opacity: 0.7;
+  
+}
+.my-resume a{
+  color: black;
+  text-decoration: none;
+}
+.my-resume a:hover{
+  color: white;
+  transition: 1s;
+}
+
+
+.contact{
+  font-size: 30px;
+  margin-top: 10px;
+  padding-top: 100px;
+  padding-left: 120px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+.social-media button{
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.social-media button:hover{
+  background-color: brown;
+  transition: 0.5s;
+}
+.social-media a{
+  text-decoration: none;
+  color: black
+}
+.social-media a:hover{
+  color: white;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
